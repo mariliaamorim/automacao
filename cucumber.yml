@@ -1,4 +1,5 @@
 default: -p pretty --publish-quiet -p html -p development -p chrome
+ci: -p pretty --publish-quiet -p html -p development -p chrome_headless
 
 pretty: --format pretty 
 development: ENVIRONMENT=development

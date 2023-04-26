@@ -1,13 +1,10 @@
-name: ci
+name: pipeline
 
 on:
   push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-
-  #executar Manualmente na aba Action
-  workflow_dispatch:
 
 permissions:
   contents: read
